@@ -1,0 +1,64 @@
+.footer {
+    padding: 20px;
+    background-color: rgb(184, 206, 169);
+    border-top: 2px solid rgb(161, 182, 148);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  
+  .cartButton {
+    background-color: rgb(147, 168, 133);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .cartButton:hover {
+    background-color: rgb(120, 140, 110);
+  }
+  
+  .cartCounter {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+  
+  .copyright {
+    color: #4a4a4a;
+    font-size: 0.9em;
+    margin: 0 20px;
+  }
+  
+  /* Animação do contador */
+  .cartCounter {
+    animation: pulse 0.5s ease-in-out;
+  }
+  
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .footer {
+      flex-direction: column;
+      gap: 15px;
+      padding: 15px;
+    }
+  
+    .copyright {
+      order: -1;
+      margin: 0;
+    }
+  }

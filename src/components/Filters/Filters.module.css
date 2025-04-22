@@ -1,0 +1,20 @@
+.filtersContainer {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .filterButton {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .filterButton.active {
+    background-color: rgb(147, 168, 133);
+    color: white;
+  }
