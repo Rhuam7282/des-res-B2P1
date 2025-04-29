@@ -14,7 +14,14 @@
   .modal.show {
     display: flex;
   }
-  
+  .category {
+    text-align: center;
+    margin: 10px 0;
+    color: #4a4a4a;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
   .modalContent {
     background-color: rgb(184, 206, 169);
     padding: 20px;

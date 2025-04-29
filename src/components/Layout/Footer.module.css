@@ -61,4 +61,13 @@
       order: -1;
       margin: 0;
     }
+  }@media (max-width: 480px) {
+    .cartButton {
+      padding: 8px 15px;
+      font-size: 0.9rem;
+    }
+    
+    .copyright {
+      font-size: 0.8rem;
+    }
   }

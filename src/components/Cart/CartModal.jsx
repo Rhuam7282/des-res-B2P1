@@ -27,9 +27,9 @@ const CartModal = () => {
             cart.map((item, index) => (
               <div key={index} className={styles.cartItem}>
                 <div>
-                  <span>{item.nome} x{item.quantity}</span>
+                  <span>{item.nome} {item.quantity} | </span>
                   <span className={styles.itemPrice}>
-                    {item.preco.replace('banana', '').replace('bananas', '')} x {item.quantity}
+                    {item.preco.replace('banana', '').replace('s', '')} x {item.quantity}
                   </span>
                 </div>
                 <button 

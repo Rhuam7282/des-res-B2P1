@@ -17,4 +17,14 @@
   .filterButton.active {
     background-color: rgb(147, 168, 133);
     color: white;
+  }@media (max-width: 480px) {
+    .filtersContainer {
+      gap: 5px;
+      margin: 10px 0;
+    }
+    
+    .filterButton {
+      font-size: 0.9rem;
+      padding: 4px 8px;
+    }
   }

@@ -12,8 +12,25 @@ function App() {
   const [currentFilter, setCurrentFilter] = useState('all');
 
   const filterItems = (category) => {
-    return [...cardapio.entradas, ...cardapio.pratos, ...cardapio.sobremesas]
-      .filter(item => category === 'all' || item.categoria === category);
+    const allItems = [
+      ...cardapio.entradas,
+      ...cardapio.pratos,
+      ...cardapio.sobremesas
+    ];
+
+    switch(category) {
+      case 'sobremesas':
+        return allItems.filter(item => item.categoria === 'sobremesas');
+      case 'bebidas':
+        return allItems.filter(item => item.descricao.toLowerCase().includes('água'));
+      case 'outros':
+        return allItems.filter(item => 
+          !['sobremesas', 'entradas'].includes(item.categoria) &&
+          !item.descricao.toLowerCase().includes('água')
+        );
+      default:
+        return allItems;
+    }
   };
 
   return (
@@ -32,7 +49,23 @@ function App() {
           ))}
         </div>
 
-        {/* Repetir lógica para outras seções */}
+        <h2 id="pratos">Pratos Principais</h2>
+        <div className="card-container">
+          {filterItems(currentFilter)
+            .filter(item => cardapio.pratos.includes(item))
+            .map(item => (
+              <ProductCard key={item.nome} item={item} />
+          ))}
+        </div>
+
+        <h2 id="sobremesas">Sobremesas</h2>
+        <div className="card-container">
+          {filterItems(currentFilter)
+            .filter(item => cardapio.sobremesas.includes(item))
+            .map(item => (
+              <ProductCard key={item.nome} item={item} />
+          ))}
+        </div>
       </main>
 
       <CartModal />

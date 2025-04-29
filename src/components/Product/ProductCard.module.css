@@ -31,7 +31,14 @@
     cursor: pointer;
     transition: background-color 0.3s;
   }
-  
+  .category {
+    text-align: center;
+    margin: 10px 0;
+    color: #4a4a4a;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
   .addButton:hover {
     background-color: #788c6e;
   }
@@ -39,4 +46,18 @@
   .price {
     font-weight: bold;
     margin: 10px 0;
+  }@media (max-width: 768px) {
+    .modalContent {
+      width: 95%;
+      padding: 15px;
+    }
+    
+    .cartItem {
+      flex-direction: column;
+      text-align: center;
+      gap: 10px;
+    }.category {
+      font-size: 0.85em;
+    }
+  
   }
