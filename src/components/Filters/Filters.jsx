@@ -1,5 +1,3 @@
-import styles from './Filters.module.css';
-
 const Filters = ({ currentFilter, setFilter }) => {
   const filters = [
     { id: 'all', label: 'Todos' },
@@ -9,14 +7,16 @@ const Filters = ({ currentFilter, setFilter }) => {
   ];
 
   return (
-    <div className={styles.filtersContainer}>
+    <div className="flex flex-wrap justify-center gap-2.5 my-5">
       {filters.map(filter => (
         <button
           key={filter.id}
           onClick={() => setFilter(filter.id)}
-          className={`${styles.filterButton} ${
-            currentFilter === filter.id ? styles.active : ''
-          }`}
+          className={`px-2.5 py-1 rounded transition-all ${
+            currentFilter === filter.id 
+              ? 'bg-[#93a885] text-white' 
+              : 'bg-gray-200 hover:bg-gray-300'
+          } text-sm md:text-base`}
         >
           {filter.label}
         </button>
