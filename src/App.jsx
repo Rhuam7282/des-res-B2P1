@@ -24,14 +24,11 @@ function App() {
 
     switch(category) {
       case 'sobremesas':
-        return allItems.filter(item => item.categoria === 'sobremesas');
+        return allItems.filter(item => item.tags.toLowerCase().includes('doces'));
       case 'bebidas':
-        return allItems.filter(item => item.descricao.toLowerCase().includes('água'));
+        return allItems.filter(item => item.tags.toLowerCase().includes('bebidas'));
       case 'outros':
-        return allItems.filter(item => 
-          !['sobremesas', 'entradas'].includes(item.categoria) &&
-          !item.descricao.toLowerCase().includes('água')
-        );
+        return allItems.filter(item => item.tags.toLowerCase().includes(''));
       default:
         return allItems;
     }
