@@ -3,4 +3,5 @@
   publish = "build"
 
 [context.production.environment]
-  NODE_VERSION = "18.0.0"
+  NODE_VERSION = "16.20.2" # Versão LTS compatível com react-scripts
+  NODE_OPTIONS = "--openssl-legacy-provider"
