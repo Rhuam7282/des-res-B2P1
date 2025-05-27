@@ -1,4 +1,4 @@
-jsx
+
 import { useState, Suspense, lazy } from 'react';
 import { CartProvider } from './context/CartContext';
 import Header from './components/Layout/Header';

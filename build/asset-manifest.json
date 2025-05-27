@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bedfac9f.css",
+    "main.js": "/static/js/main.18cd3ee6.js",
+    "static/js/81.782e62e1.chunk.js": "/static/js/81.782e62e1.chunk.js",
+    "static/js/373.3472009b.chunk.js": "/static/js/373.3472009b.chunk.js",
+    "static/js/453.e6110eaa.chunk.js": "/static/js/453.e6110eaa.chunk.js",
+    "static/media/pudim.jpg": "/static/media/pudim.10a2b66bdaa06ebdffee.jpg",
+    "static/media/agua.jpg": "/static/media/agua.c6e4ca65009094e4b2dd.jpg",
+    "static/media/logo.jpg": "/static/media/logo.f92d3b28b6f92f791d77.jpg",
+    "static/media/carne.jpg": "/static/media/carne.c5475161573f3a632b48.jpg",
+    "static/media/bolo.jpg": "/static/media/bolo.7d8a1a767dd016722298.jpg",
+    "static/media/assado.jpg": "/static/media/assado.51f0b02ab1b3fcc78536.jpg",
+    "static/media/torta.jpg": "/static/media/torta.5ab7aaa89e8890e09059.jpg",
+    "static/media/batida.jpg": "/static/media/batida.e9dfcf2159d8b59eaedd.jpg",
+    "static/media/manjar.webp": "/static/media/manjar.db871e84eaffd0c1e96a.webp",
+    "static/media/bala.jpg": "/static/media/bala.a761b594bb9bca5957ca.jpg",
+    "static/media/sequilho.jpg": "/static/media/sequilho.5da5c30ce78759f23686.jpg",
+    "static/media/coquinho.jpg": "/static/media/coquinho.64690ccfd2f43ecd48cc.jpg",
+    "static/media/chips.jpg": "/static/media/chips.9af52e3fbfbf8797a2e8.jpg",
+    "static/media/queimado.jpg": "/static/media/queimado.336d97db23a76907192e.jpg",
+    "static/media/cocada.jpg": "/static/media/cocada.05afaa9b54972b70b823.jpg",
+    "static/media/vidro.jpg": "/static/media/vidro.57d9bb4026aa14bb7ed9.jpg",
+    "index.html": "/index.html",
+    "main.bedfac9f.css.map": "/static/css/main.bedfac9f.css.map",
+    "main.18cd3ee6.js.map": "/static/js/main.18cd3ee6.js.map",
+    "81.782e62e1.chunk.js.map": "/static/js/81.782e62e1.chunk.js.map",
+    "373.3472009b.chunk.js.map": "/static/js/373.3472009b.chunk.js.map",
+    "453.e6110eaa.chunk.js.map": "/static/js/453.e6110eaa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bedfac9f.css",
+    "static/js/main.18cd3ee6.js"
+  ]
+}

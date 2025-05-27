@@ -10,7 +10,7 @@ import vidro from '../assets/images/vidro.jpg';
 import torta from '../assets/images/torta.jpg';
 import sequilho from '../assets/images/sequilho.jpg';
 import pudim from '../assets/images/pudim.jpg';
-import manjar from '../assets/images/manjar.jpg';
+import manjar from '../assets/images/manjar.webp';
 import batida from '../assets/images/batida.jpg';
 import assado from '../assets/images/assado.jpg';
 import bolo from '../assets/images/bolo.jpg';
