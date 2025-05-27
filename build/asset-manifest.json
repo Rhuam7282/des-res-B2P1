@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.bedfac9f.css",
+    "main.css": "/static/css/main.43ae786a.css",
     "main.js": "/static/js/main.18cd3ee6.js",
     "static/js/81.782e62e1.chunk.js": "/static/js/81.782e62e1.chunk.js",
     "static/js/373.3472009b.chunk.js": "/static/js/373.3472009b.chunk.js",
@@ -22,14 +22,14 @@
     "static/media/cocada.jpg": "/static/media/cocada.05afaa9b54972b70b823.jpg",
     "static/media/vidro.jpg": "/static/media/vidro.57d9bb4026aa14bb7ed9.jpg",
     "index.html": "/index.html",
-    "main.bedfac9f.css.map": "/static/css/main.bedfac9f.css.map",
+    "main.43ae786a.css.map": "/static/css/main.43ae786a.css.map",
     "main.18cd3ee6.js.map": "/static/js/main.18cd3ee6.js.map",
     "81.782e62e1.chunk.js.map": "/static/js/81.782e62e1.chunk.js.map",
     "373.3472009b.chunk.js.map": "/static/js/373.3472009b.chunk.js.map",
     "453.e6110eaa.chunk.js.map": "/static/js/453.e6110eaa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bedfac9f.css",
+    "static/css/main.43ae786a.css",
     "static/js/main.18cd3ee6.js"
   ]
 }
